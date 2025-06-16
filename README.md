@@ -1,1 +1,1 @@
-Data sourced from [Driver Averages](driveraverages.com)
+Data sourced from driveraverages.com
