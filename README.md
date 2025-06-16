@@ -1,52 +1,114 @@
-# 🏁 NASCAR Race Win Prediction via Monte Carlo Simulation
+# 🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
 
-A data-driven simulation tool to predict the winner of a NASCAR Cup Series race using Monte Carlo methods. This project is focused on the upcoming race at Pocono Raceway, using historical driver data, DNF rates, and performance metrics to simulate thousands of race outcomes.
+A data-driven simulation tool to predict the winner of a NASCAR Cup Series race using Monte Carlo methods. This project uses historical driver data, DNF rates, and performance metrics to simulate thousands of race outcomes.
+
+Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/think/topics/monte-carlo-simulation)
+
+--- 
+
+## Predictions By Track:
+
+### 🏔️ Pocono Raceway:
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+| **#24** Byron  | **#11** Hamlin | **#5** Larson  |
 
 ---
 
 ## 📂 Project Structure
 
+*Structure subject to change as project evolves*
+
 NASCAR-Race-Predictions/
+
 ├── Pocono-Driver-Data/
+
 │ ├── pocono-sim-ready-data.csv # Main dataset with Avg Finish, DNF %, Std Dev, etc.
-│ └── cup_roster.csv # Contains driver names and car numbers
-├── images/
-│ └── driver_numbers/ # PNGs of driver numbers used in plots
-├── simulations/
-│ └── monte_carlo_simulation.py # Core simulation logic
-├── plots/
-│ └── win_probabilities.png # Output visualizations
+
+│ └── driver-stats-pocono.txt # Contains driver stats from Pocono (from [DriverAverages.com](https://www.driveraverages.com/))
+
+├── Driver-Num-Logos/
+
+│ └── *.png/ # PNGs of driver numbers used in plots (future addition)
+
+├── Master-Data/
+
+│ └── 2025-cup-series-full-timers # Contains driver name and # for all 2025 full time drivers.
+
+├── Monte-Carlo-Simulations/
+
+│ └── 2025-Pocono-Simulation.ipynb # Jupyter Notebook file w/ all simulations and plots
+
+├── Data-Preprocessing/
+
+│ └── 2025-Pocono-Data-Preprocessing.ipynb # Jupyter Notebook file w/ all data cleansing/feature engineering
+
 ├── README.md
 
 
 ---
 
-## 📊 Methodology
+## 🧠 Methodology
 
-1. **Data Sourcing**
-   - Historical Pocono stats from [DriverAverages.com](https://www.driveraverages.com/)
-   - Current season stats, DNF counts, and average finishes
+1. **Data Collection**  
+   Driver statistics (average finish, laps led, DNF count, etc.) sourced from [DriverAverages.com](https://www.driveraverages.com).
 
-2. **Monte Carlo Simulation**
-   - Each simulation randomly samples a finishing position based on:
-     - Driver's average Pocono finish
-     - Standard deviation (performance variance)
-     - DNF probability
-   - Races are run thousands of times (`N=10,000`) to estimate win probabilities
+2. **Feature Engineering**  
+   - Calculated `DNF_Prob` using custom logic based on past races and DNFs.
+   - `Laps Led Per Race` to reflect dominance potential.
+   - `Standard Deviation` for simulating finish variability.
 
-3. **Assumptions**
-   - If a driver has no Pocono history, they are assigned average estimates with higher variance.
-   - DNFs finish near the back randomly.
+3. **Simulation**  
+   - Each race run using a Monte Carlo simulation.
+   - DNF outcomes handled probabilistically.
+   - Finished positions sampled from a normal distribution around each driver’s average with custom standard deviation.
+
+4. **Results**  
+   - Simulation run 10,000+ times.
+   - Win probabilities estimated based on number of wins across simulations.
+
+---
+
+## 📊 Visualization
+
+The top drivers' win probabilities are displayed using a horizontal bar chart, more visualization enhancements are planned.
 
 ---
 
 ## 🔁 Run the Simulation
 
-### 🧠 Requirements
+### 💻 Requirements
+
+The following libraries are required, run this line in your Python environment to install all of them
+
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
+*Once project is expanded upon, more info on running your own simulation will go here*
 
+--- 
 
-Data sourced from driveraverages.com
+## 📈 Future Improvements
+
+- Include pit crew performance metrics.
+
+- Factor in qualifying position and starting grid.
+
+- Extend to multiple tracks across the season.
+
+- Add GUI dashboard (once a good base of tracks has been added).
+
+- Factor in non track-exclusive driver statistics
+
+---
+
+## 📚 Data Source
+
+Driver data from: [DriverAverages.com](https://www.driveraverages.com/)
+
+---
+
+## 🧑‍💻 Author
+Jacob Lukasik | Penn State B.S. Data Science | Graduating Fall 2025
