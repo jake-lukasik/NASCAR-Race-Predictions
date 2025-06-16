@@ -10,7 +10,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 *Betting odds sourced from the Fanatics Sportsbook iPhone App, learn more [here](https://betfanatics.com/)*
 
-*As the author of this project, I do not endorse sports betting in any form, I simply include betting odds to evaluate my model's predictive performance.*
+*As the author of this project, I do not endorse sports betting in any form. I simply include betting odds to evaluate my model's predictive performance. If you choose to bet on sports, please do not use these predictions as your sole source of information. Gambling involves risk and should be approached responsibly. This project is intended for educational and analytical purposes only.*
 
 ### 🏔️ Pocono Raceway:
 
