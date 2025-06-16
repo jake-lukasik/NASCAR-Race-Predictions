@@ -8,6 +8,10 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 ## Predictions By Track:
 
+*Betting odds sourced from the Fanatics Sportsbook iPhone App, learn more [here](https://betfanatics.com/)*
+
+*As the author of this project, I do not endorse sports betting in any form, I simply include betting odds to evaluate my model's predictive performance.*
+
 ### 🏔️ Pocono Raceway:
 
 **Prediction:**
@@ -115,6 +119,12 @@ pip install pandas numpy matplotlib seaborn
 ## 📚 Data Source
 
 Driver data from: [DriverAverages.com](https://www.driveraverages.com/)
+
+---
+
+## ❤️ Project Motivation
+
+I have always been a massive NASCAR fan, and as I have begun working on projects within data science related to sports, I have seen the huge gap that is present in NASCAR with data utilization. While this project is a simple one, I think it is fascinating getting to use some concepts I am familiar with via school and industry work in a setting of a sport I love. I hope too that data science students just like me could find inspiration from this project.
 
 ---
 
