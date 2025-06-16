@@ -18,7 +18,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
-| **#24** Byron  | **#11** Hamlin | **#5** Larson  |
+| **#24** Byron  | **#6** Keselowski | **#11** Hamlin  |
 
 **Race Result:**
 
