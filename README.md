@@ -10,9 +10,17 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 ### 🏔️ Pocono Raceway:
 
+**Prediction:**
+
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
 | **#24** Byron  | **#11** Hamlin | **#5** Larson  |
+
+**Race Result:**
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+|   |  |   |
 
 ---
 
@@ -111,4 +119,4 @@ Driver data from: [DriverAverages.com](https://www.driveraverages.com/)
 ---
 
 ## 🧑‍💻 Author
-Jacob Lukasik | Penn State B.S. Data Science | Graduating Fall 2025
+[Jacob Lukasik](https://www.linkedin.com/in/jacob-lukasik-00306826b/) | Penn State B.S. Data Science | Graduating Fall 2025
