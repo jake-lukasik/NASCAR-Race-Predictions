@@ -42,7 +42,7 @@ NASCAR-Race-Predictions/
 
 ├── Driver-Num-Logos/
 
-│ └── *.png/ # PNGs of driver numbers used in plots (future addition)
+│ └── *.png/ # PNGs of driver numbers used in plots (future addition) sourced from [NASCAR Website](https://www.nascar.com/drivers/nascar-cup-series/)
 
 ├── Master-Data/
 
@@ -119,6 +119,8 @@ pip install pandas numpy matplotlib seaborn
 ## 📚 Data Source
 
 Driver data from: [DriverAverages.com](https://www.driveraverages.com/)
+
+Driver number logo images from: [NASCAR Website](https://www.nascar.com/drivers/nascar-cup-series/)
 
 ---
 
