@@ -1,0 +1,37 @@
+Driver,Car No.
+William Byron,24
+Kyle Larson,5
+Christopher Bell,20
+Chase Elliott,9
+Denny Hamlin,11
+Tyler Reddick,45
+Ryan Blaney,12
+Ross Chastain,1
+Bubba Wallace,23
+Joey Logano,22
+Chase Briscoe,19
+Alex Bowman,48
+Chris Buescher,17
+Ryan Preece,60
+Austin Cindric,2
+Michael McDowell,71
+A.J. Allmendinger,16
+Kyle Busch,8
+Josh Berry,21
+Carson Hocevar,77
+Ricky Stenhouse Jr.,47
+Erik Jones,43
+John Hunter Nemechek,42
+Ty Gibbs,54
+Zane Smith,38
+Todd Gilliland,34
+Austin Dillon,3
+Daniel Suarez,99
+Justin Haley,7
+Shane van Gisbergen,88
+Ty Dillon,10
+Brad Keselowski,6
+Noah Gragson,4
+Cole Custer,41
+Riley Herbst,35
+Cody Ware,51
