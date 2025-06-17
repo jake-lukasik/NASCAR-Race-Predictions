@@ -1,0 +1,37 @@
+Driver,NASCAR Points,Avg Finish,Races,Wins,Top 5's,Top 10's,Laps Led,Avg Rating
+William Byron,604,10.4,16,1,7,10,769,106.7
+Kyle Larson,537,12.8,16,3,9,11,851,96.0
+Christopher Bell,524,10.6,16,3,7,11,153,94.2
+Chase Elliott,500,11.2,16,0,4,8,95,85.5
+Denny Hamlin,494,13.5,15,3,7,8,455,94.3
+Tyler Reddick,477,14.5,16,0,3,5,94,90.6
+Ryan Blaney,466,17.4,16,1,6,7,346,90.6
+Ross Chastain,443,12.6,16,1,3,8,58,80.3
+Joey Logano,411,16.9,16,1,2,4,302,84.5
+Bubba Wallace,411,18.3,16,0,3,6,103,82.4
+Chase Briscoe,393,14.5,16,0,5,7,92,80.8
+Alex Bowman,376,19.3,16,0,3,8,110,78.1
+Chris Buescher,373,14.6,16,0,2,8,16,79.2
+Ryan Preece,354,18.6,16,0,1,6,53,78.5
+Austin Cindric,337,19.1,16,1,1,3,239,80.0
+Michael McDowell,330,18.3,16,0,1,2,43,66.8
+A.J. Allmendinger,328,20.3,16,0,1,4,2,66.7
+Kyle Busch,323,18.1,16,0,1,5,62,73.6
+Josh Berry,320,20.9,16,1,2,3,169,76.8
+Carson Hocevar,313,22.8,16,0,2,3,70,75.1
+Ricky Stenhouse Jr.,312,19.1,16,0,1,2,0,57.5
+Erik Jones,311,19.6,16,0,1,2,1,63.7
+John Hunter Nemechek,301,19.5,16,0,1,5,2,57.1
+Ty Gibbs,296,19.8,16,0,2,3,65,69.0
+Zane Smith,287,20.0,16,0,0,2,10,64.2
+Todd Gilliland,286,20.1,16,0,0,2,11,58.5
+Austin Dillon,284,19.8,16,0,0,3,8,60.9
+Daniel Suarez,274,21.0,16,0,1,3,14,62.4
+Justin Haley,247,22.5,16,0,0,1,0,55.0
+Shane van Gisbergen,242,23.8,16,1,1,2,85,54.4
+Ty Dillon,236,23.1,16,0,0,0,8,51.3
+Brad Keselowski,233,24.3,16,0,1,2,8,62.9
+Noah Gragson,231,23.2,16,0,1,3,2,58.2
+Cole Custer,204,24.4,16,0,0,1,2,48.2
+Riley Herbst,196,25.1,16,0,0,0,0,46.7
+Cody Ware,101,30.3,16,0,0,0,2,33.3
