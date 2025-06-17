@@ -21,6 +21,8 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 |----------------|----------------|----------------|
 | **#24** Byron  | **#11** Hamlin | **#5** Larson  |
 
+(Will add odds closer to race day)
+
 My Top 10:
 
 <img src="Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
