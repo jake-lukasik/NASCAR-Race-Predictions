@@ -1,4 +1,5 @@
-n# 🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
+🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
+
 <sub>Kind of... I started this in June.</sub>
 
 A data-driven simulation tool to predict the winner of a NASCAR Cup Series race using Monte Carlo methods. This project uses historical driver data, DNF rates, and performance metrics to simulate thousands of race outcomes.
