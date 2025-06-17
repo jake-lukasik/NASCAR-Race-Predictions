@@ -20,6 +20,10 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 |----------------|----------------|----------------|
 | **#24** Byron  | **#11** Hamlin | **#6** Keselowski  |
 
+My Top 10:
+
+![Pocono 2025 Predicted Top 10](Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png)
+
 **Race Result:**
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
