@@ -22,7 +22,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 | **#24** Byron  | **#11** Hamlin | **#5** Larson  |
 |      +600 (T2)  |    +400 (1)   |    +600 (T2)   |
 
-(Will add odds closer to race day)
+<sub>Odds updated 06/17/2025.</sub>
 
 My Top 10:
 
@@ -30,7 +30,7 @@ My Top 10:
 
 My Personal Pick:
 
-Kyle Larson has been completely out of luck since the debacle when he tried to perform the double. He's my top pick, along with Hamlin, as well as Hocevar hopefully finally getting win No. 1.
+Kyle Larson has been completely out of luck since the debacle when he tried to perform the double. He's my top pick, along with Hamlin due to his dominance at Pocono, as well as Hocevar hopefully finally getting win No. 1. A late race skirmish between the 11 and the 5 like we saw in 2023 would not surprise me.
 
 **Race Result:**
 
