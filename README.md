@@ -1,4 +1,5 @@
 # 🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
+<small>Kind of... I started this in June.</small>
 
 A data-driven simulation tool to predict the winner of a NASCAR Cup Series race using Monte Carlo methods. This project uses historical driver data, DNF rates, and performance metrics to simulate thousands of race outcomes.
 
@@ -6,7 +7,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 --- 
 
-## Predictions By Track:
+## Predictions and Evaluation By Track:
 
 *Betting odds sourced from the Fanatics Sportsbook iPhone App, learn more [here](https://betfanatics.com/)*
 
@@ -18,11 +19,15 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
-| **#24** Byron  | **#11** Hamlin | **#6** Keselowski  |
+| **#24** Byron  | **#11** Hamlin | **#5** Larson  |
 
 My Top 10:
 
 <img src="Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
+
+My Personal Pick:
+
+Kyle Larson has been completely out of luck since the debacle when he tried to perform the double. He's my top pick, along with Hamlin, as well as Hocevar hopefully finally getting win No. 1.
 
 **Race Result:**
 
@@ -32,33 +37,27 @@ My Top 10:
 
 ---
 
+Comments On Predictive Performance: 
+
+**Be back on Sunday night!**
+
 ## 📂 Project Structure
 
 *Structure subject to change as project evolves*
 
 NASCAR-Race-Predictions/
 
-├── Pocono-Driver-Data/
+├── Data/
 
-│ ├── pocono-sim-ready-data.csv # Main dataset with Avg Finish, DNF %, Std Dev, etc.
+│ ├── All track specific, season specific, and 'Master' data here, including driver roster and .png images of driver number logos
 
-│ └── driver-stats-pocono.txt # Contains driver stats from Pocono (from [DriverAverages.com](https://www.driveraverages.com/))
+├── Code Notebooks/
 
-├── Driver-Num-Logos/
+│ └── Here you can find all the code I have run to produce predictions in ipynb files. I plan writing plain .py scripts in the future to allow more accesibility. 
 
-│ └── *.png/ # PNGs of driver numbers used in plots (future addition) sourced from [NASCAR Website](https://www.nascar.com/drivers/nascar-cup-series/)
+├── Predictions/
 
-├── Master-Data/
-
-│ └── 2025-cup-series-full-timers # Contains driver name and # for all 2025 full time drivers.
-
-├── Monte-Carlo-Simulations/
-
-│ └── 2025-Pocono-Simulation.ipynb # Jupyter Notebook file w/ all simulations and plots
-
-├── Data-Preprocessing/
-
-│ └── 2025-Pocono-Data-Preprocessing.ipynb # Jupyter Notebook file w/ all data cleansing/feature engineering
+│ └── Find all plots and visualizations I produce from my predictions here.
 
 ├── README.md
 
@@ -116,7 +115,7 @@ pip install pandas numpy matplotlib seaborn
 
 - Add GUI dashboard (once a good base of tracks has been added).
 
-- Factor in non track-exclusive driver statistics
+- ~~Factor in non track-exclusive driver statistics~~
 
 ---
 
