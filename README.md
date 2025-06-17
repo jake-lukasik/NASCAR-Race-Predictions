@@ -20,6 +20,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
 | **#24** Byron  | **#11** Hamlin | **#5** Larson  |
+|      +600 (T2)  |    +400 (1)   |    +600 (T2)   |
 
 (Will add odds closer to race day)
 
