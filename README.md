@@ -22,7 +22,7 @@ Read more about how a Monte Carlo simulation works [here](https://www.ibm.com/th
 
 My Top 10:
 
-![Pocono 2025 Predicted Top 10](Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png)
+<img src="Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
 
 **Race Result:**
 
