@@ -1,4 +1,4 @@
-🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
+# 🏁 2025 Season NASCAR Race Win Prediction via Monte Carlo Simulation
 
 <sub>Kind of... I started this in June.</sub>
 
