@@ -107,7 +107,7 @@ The top drivers' win probabilities are displayed using a horizontal bar chart, m
 The following libraries are required, run this line in your Python environment to install all of them
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib seaborn requests beautifulsoup4
 ```
 
 *Once project is expanded upon, more info on running your own simulation will go here*
