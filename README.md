@@ -16,7 +16,7 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 
 *As the author of this project, I do not endorse sports betting in any form. I simply include betting odds to evaluate my model's predictive performance. If you choose to bet on sports, please do not use these predictions as your sole source of information. Gambling involves risk and should be approached responsibly. This project is intended for educational and analytical purposes only.*
 
-### 🏔️ Pocono Raceway:
+### 🏔️ Pocono Raceway: The Tricky Triangle
 
 **Prediction:**
 
@@ -39,13 +39,16 @@ Kyle Larson has been completely out of luck since the debacle when he tried to p
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
-|   |  |   |
+| **#19** Briscoe  | **#11** Hamlin | **#12** Blaney  |
+|      +2500 (15)  |    +400 (1)   |    +700 (4)   |
 
 ---
 
 Comments On Predictive Performance: 
 
-**Be back on Sunday night!**
+I think that, overall, the model performed decently well. I think that Briscoe winning at Pocono was a card that not many people saw coming. Chase went out, had a fantastic race, and was supported by the rest of the JGR #19 team, an all around executional masterpiece. Hamlin came exactly where predicted, showcasing the biggest strength of the model in that it takes drivers' previous results at the track as a priority while using other statistics as weighting. Lastly, Blaney in third is also very close to what my model had. Overall, as the first run of this model, I am very happy about how it went, and I am eager to fine tune it for future races.
+
+### 👹 Dover Motor Speedway: The Monster Mile
 
 ## 📂 Project Structure
 
@@ -117,9 +120,13 @@ pip install pandas numpy matplotlib seaborn
 
 - Factor in qualifying position and starting grid.
 
-- Extend to multiple tracks across the season.
+- Implement web crawling to pull statistics from the sources.
+
+- Add better post race evaluation visualizations and error calculation.
 
 - Add GUI dashboard (once a good base of tracks has been added).
+
+- ~~Extend to multiple tracks across the season.~~
 
 - ~~Factor in non track-exclusive driver statistics~~
 
