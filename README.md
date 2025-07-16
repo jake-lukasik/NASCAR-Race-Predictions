@@ -50,6 +50,37 @@ I think that, overall, the model performed decently well. I think that Briscoe w
 
 ### 👹 Dover Motor Speedway: The Monster Mile
 
+**Prediction:**
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+| **#5** Larson  | **#9** Elliott | **#24** Byron  |
+|      +430 (1)  |    +1000 (5)   |    +650 (T3)   |
+
+<sub>Odds updated 07/15/2025.</sub>
+
+My Top 10:
+
+<img src="Predictions/Dover-2025/Dover-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
+
+My Personal Pick:
+
+I think the bias is real here: my model says Larson, Vegas says Larson, I am a huge Larson fan so it looks like I'm riding with Kyle Larson this weekend. Along with Larson, I think this race could be the turning point, or rather the point where some *other* drivers who are in a bit of a slump are able to lock back in, so I like Blaney and C Bell for this race too. I think my personal longshot is going to be *Cinnamon Toast* (Chris) Buescher.
+
+**Race Result:**
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+|   |  |  |
+|       |   |    |
+
+Be back Sunday!
+---
+
+Comments On Predictive Performance: 
+
+Be back Sunday!
+
 ## 📂 Project Structure
 
 *Structure subject to change as project evolves*
@@ -120,13 +151,13 @@ pip install pandas numpy matplotlib seaborn requests beautifulsoup4
 
 - Factor in qualifying position and starting grid.
 
-- Implement web crawling to pull statistics from the sources.
-
-- Add better post race evaluation visualizations and error calculation.
+- Add better post race evaluation visualizations and error calculation. -- Getting there, just added mean avg finish and std. dev
 
 - Add GUI dashboard (once a good base of tracks has been added).
 
 - Add a `road-course-weight` feature for road courses (significantly help drivers like SVG, Allmendinger)
+
+- ~~Implement web crawling to pull statistics from the sources.~~
   
 - ~~Extend to multiple tracks across the season.~~
 
