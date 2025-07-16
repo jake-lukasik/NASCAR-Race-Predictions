@@ -126,6 +126,8 @@ pip install pandas numpy matplotlib seaborn
 
 - Add GUI dashboard (once a good base of tracks has been added).
 
+- Add a `road-course-weight` feature for road courses (significantly help drivers like SVG, Allmendinger)
+  
 - ~~Extend to multiple tracks across the season.~~
 
 - ~~Factor in non track-exclusive driver statistics~~
