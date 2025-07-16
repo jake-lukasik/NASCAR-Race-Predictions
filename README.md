@@ -158,6 +158,8 @@ pip install pandas numpy matplotlib seaborn requests beautifulsoup4
 
 - Add GUI dashboard (once a good base of tracks has been added).
 
+- Along w/ GUI, add different model types (ML models), along with different weighting decisions (Focus more on track statistics, focus more on season statistics, etc.)
+
 - Add a `road-course-weight` feature for road courses (significantly help drivers like SVG, Allmendinger)
 
 - ~~Implement web crawling to pull statistics from the sources.~~
