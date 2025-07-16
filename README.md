@@ -75,6 +75,7 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 |       |   |    |
 
 Be back Sunday!
+
 ---
 
 **Comments On Predictive Performance:**
