@@ -27,11 +27,11 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 
 <sub>Odds updated 06/17/2025.</sub>
 
-My Top 10:
+**My Top 10:**
 
 <img src="Predictions/Pocono-2025/Pocono-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
 
-My Personal Pick:
+**My Personal Pick:**
 
 Kyle Larson has been completely out of luck since the debacle when he tried to perform the double. He's my top pick, along with Hamlin due to his dominance at Pocono, as well as Hocevar hopefully finally getting win No. 1. A late race skirmish between the 11 and the 5 like we saw in 2023 would not surprise me.
 
@@ -44,7 +44,7 @@ Kyle Larson has been completely out of luck since the debacle when he tried to p
 
 ---
 
-Comments On Predictive Performance: 
+**Comments On Predictive Performance:**
 
 I think that, overall, the model performed decently well. I think that Briscoe winning at Pocono was a card that not many people saw coming. Chase went out, had a fantastic race, and was supported by the rest of the JGR #19 team, an all around executional masterpiece. Hamlin came exactly where predicted, showcasing the biggest strength of the model in that it takes drivers' previous results at the track as a priority while using other statistics as weighting. Lastly, Blaney in third is also very close to what my model had. Overall, as the first run of this model, I am very happy about how it went, and I am eager to fine tune it for future races.
 
@@ -59,11 +59,11 @@ I think that, overall, the model performed decently well. I think that Briscoe w
 
 <sub>Odds updated 07/15/2025.</sub>
 
-My Top 10:
+**My Top 10:**
 
 <img src="Predictions/Dover-2025/Dover-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
 
-My Personal Pick:
+**My Personal Pick:**
 
 I think the bias is real here: my model says Larson, Vegas says Larson, I am a huge Larson fan so it looks like I'm riding with Kyle Larson this weekend. Along with Larson, I think this race could be the turning point, or rather the point where some *other* drivers who are in a bit of a slump are able to lock back in, so I like Blaney and C Bell for this race too. I think my personal longshot is going to be *Cinnamon Toast* (Chris) Buescher.
 
@@ -77,7 +77,7 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 Be back Sunday!
 ---
 
-Comments On Predictive Performance: 
+**Comments On Predictive Performance:**
 
 Be back Sunday!
 
@@ -100,6 +100,8 @@ NASCAR-Race-Predictions/
 │ └── Find all plots and visualizations I produce from my predictions here.
 
 ├── README.md
+
+│ └── That is me.
 
 
 ---
