@@ -79,7 +79,9 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 
 **Comments On Predictive Performance:**
 
-Be back Sunday!
+I am not super happy with how today went, albeit not necessarily dissappointed in model performance. Everything was looking perfectly smooth up until the red flag flew for rain with 14 laps to go. I will say, this is exactly the kind of scenario that I want to be able to plan for, but overall, not super unhappy. I think prior to the rain delay, I was in a fantastic spot, and honestly up until the Bell spin off the red flag. Each of my predicted top 3 were able to fight for a win today, which I can be happy about. Definitely want to make some big changes in the overall methodology of the simulation after that. Will be back next week for the Brickyard.
+
+---
 
 ## 📂 Project Structure
 
