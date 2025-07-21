@@ -101,6 +101,10 @@ NASCAR-Race-Predictions/
 
 │ └── Find all plots and visualizations I produce from my predictions here.
 
+├── User-GUI/
+
+│ └── Find the .py script to launch the GUI to run your own predictions here.
+
 ├── README.md
 
 │ └── That is me.
