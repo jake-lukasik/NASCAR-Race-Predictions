@@ -40,7 +40,7 @@ Kyle Larson has been completely out of luck since the debacle when he tried to p
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
 | **#19** Briscoe  | **#11** Hamlin | **#12** Blaney  |
-|      +2500 (15)  |    +400 (1)   |    +700 (4)   |
+|     +2500 (15)  |    +400 (1)   |    +700 (4)   |
 
 ---
 
@@ -71,10 +71,9 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
 |----------------|----------------|----------------|
-|   |  |  |
-|       |   |    |
+| **#11** Hamlin  | **#19** Briscoe | **#48** Bowman  |
+|      +470 (2)  |    +1900 (T9)   |    +1900 (T9)   |
 
-Be back Sunday!
 
 ---
 
