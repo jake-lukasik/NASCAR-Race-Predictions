@@ -101,6 +101,10 @@ NASCAR-Race-Predictions/
 
 │ └── Find all plots and visualizations I produce from my predictions here.
 
+├── User-GUI/
+
+│ └── Find the .py script to launch the GUI to run your own predictions here.
+
 ├── README.md
 
 │ └── That is me.
@@ -157,11 +161,11 @@ pip install pandas numpy matplotlib seaborn requests beautifulsoup4
 
 - Add better post race evaluation visualizations and error calculation. -- Getting there, just added mean avg finish and std. dev
 
-- Add GUI dashboard (once a good base of tracks has been added).
-
 - Along w/ GUI, add different model types (ML models), along with different weighting decisions (Focus more on track statistics, focus more on season statistics, etc.)
 
 - Add a `road-course-weight` feature for road courses (significantly help drivers like SVG, Allmendinger)
+ 
+- ~~Add GUI dashboard (once a good base of tracks has been added).~~
 
 - ~~Implement web crawling to pull statistics from the sources.~~
   
