@@ -61,7 +61,6 @@ def run_simulations(df, num_simulations=10000):
     return win_probs
 
 # -- GUI CLASS -- #
-# setting up the GUI
 ### !!!!!! DISCLAIMER: !!!!!! ###
 # I am a data scientist, I know absolutely nothing about front
 # end, user interfacing programming. For a LOT of this section to build
@@ -70,6 +69,7 @@ def run_simulations(df, num_simulations=10000):
 # and as I add on to this GUI in the future, I plan on integrating different
 # features independently so I can learn more about it. Thanks!
 
+# setting up the GUI
 class RaceSimApp:
     def __init__(self, root):
         self.root = root
