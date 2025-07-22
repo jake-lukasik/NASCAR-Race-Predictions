@@ -21,6 +21,7 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 <details>
    
 <summary>Predictions</summary>
+
    
 **Prediction:**
 
