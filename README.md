@@ -18,6 +18,8 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 
 ### 🏔️ Pocono Raceway: The Tricky Triangle
 
+<details>
+
 **Prediction:**
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
@@ -47,6 +49,8 @@ Kyle Larson has been completely out of luck since the debacle when he tried to p
 **Comments On Predictive Performance:**
 
 I think that, overall, the model performed decently well. I think that Briscoe winning at Pocono was a card that not many people saw coming. Chase went out, had a fantastic race, and was supported by the rest of the JGR #19 team, an all around executional masterpiece. Hamlin came exactly where predicted, showcasing the biggest strength of the model in that it takes drivers' previous results at the track as a priority while using other statistics as weighting. Lastly, Blaney in third is also very close to what my model had. Overall, as the first run of this model, I am very happy about how it went, and I am eager to fine tune it for future races.
+
+</details>
 
 ### 👹 Dover Motor Speedway: The Monster Mile
 
