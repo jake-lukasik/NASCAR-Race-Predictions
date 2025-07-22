@@ -95,6 +95,8 @@ I am not super happy with how today went, albeit not necessarily dissappointed i
 
 </details>
 
+---
+
 ## 📂 Project Structure
 
 *Structure subject to change as project evolves*
