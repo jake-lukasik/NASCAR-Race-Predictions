@@ -19,7 +19,9 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 ### 🏔️ Pocono Raceway: The Tricky Triangle
 
 <details>
-
+   
+<summary>Predictions</summary>
+   
 **Prediction:**
 
 | 🥇 #1           | 🥈 #2           | 🥉 #3           |
