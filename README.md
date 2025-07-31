@@ -148,7 +148,7 @@ What an awesome drive by Bubba, holding off mother nature, two overtimes, and gu
 
 <sub>Odds updated 07/23/2025.</sub>
 
-<sub>Picks made with 30% weight on track specific performance, 70% based off season performance to date.</sub>
+<sub>Picks made with 15% weight on track specific performance, 85% based off season performance to date.</sub>
 
 **My Top 10:**
 
