@@ -95,10 +95,6 @@ I am not super happy with how today went, albeit not necessarily dissappointed i
 
 </details>
 
----
-
-
-</details>
 
 ### 🧱 Indianapolis Motor Speedway: The Brickyard
 
