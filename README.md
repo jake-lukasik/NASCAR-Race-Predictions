@@ -95,7 +95,6 @@ I am not super happy with how today went, albeit not necessarily dissappointed i
 
 </details>
 
-
 ### 🧱 Indianapolis Motor Speedway: The Brickyard
 
 <details>
@@ -139,6 +138,49 @@ I didn't have time to type this up pre race, I'm currently travelling, but I tho
 **Comments On Predictive Performance:**
 
 What an awesome drive by Bubba, holding off mother nature, two overtimes, and gung ho Kyle Larson in your rearview was awesome to watch, even as a huge Larson fan. I am stoked at how my model did, even if I had the eventual race winner predicted to end up 14th. Beyond just the winner, I really hit the nail on the head for the most part. Obviously I need to keep fine tuning the waiting, doing all the enhancements I laid out for myself, and so on. Also, I really need to start looking at how Vegas has their pre race odds, comparing and contrasting what I get, and using some sort of formula to translate my predictions into actual betting odds to see how they hold up side by side.
+
+---
+
+</details>
+
+### 🌽 Iowa Speedway: The Cornfield
+
+<details>
+   
+<summary>Predictions</summary>
+   
+**Prediction:**
+
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             |
+|-----------------------|--------------------|-------------------|------------------|
+| **Driver**            | **#23** Wallace     | **#5** Larson      | **#11** Hamlin    |
+| **Vegas Odds**        | +1500 (10)          | +500 (2)           | +750 (4)          |
+| **Sim Prediction**    | 14th| ⭐️ 2nd ⭐️ | ✨ 4th ✨|
+
+<sub>Odds updated 07/23/2025.</sub>
+
+<sub>Picks made with 30% weight on track specific performance, 70% based off season performance to date.</sub>
+
+**My Top 10:**
+
+<img src="Predictions/Iowa-2025/Iowa-2025-Predicted-Top-10.png" alt="Iowa 2025 Predicted Top 10" width="500"/>
+
+**Notable Model Changes For This Race**
+
+- None (On vacation, not much time to do much other than run preds)
+
+**My Personal Pick:**
+
+
+**Race Result:**
+
+Be back post race.
+
+---
+
+**Comments On Predictive Performance:**
+
+Be back post race.
 
 ---
 
