@@ -71,7 +71,7 @@ I think that, overall, the model performed decently well. I think that Briscoe w
 
 **My Top 10:**
 
-<img src="Predictions/Dover-2025/Dover-2025-Predicted-Top-10.png" alt="Pocono 2025 Predicted Top 10" width="500"/>
+<img src="Predictions/Dover-2025/Dover-2025-Predicted-Top-10.png" alt="Dover 2025 Predicted Top 10" width="500"/>
 
 **My Personal Pick:**
 
@@ -90,6 +90,60 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 **Comments On Predictive Performance:**
 
 I am not super happy with how today went, albeit not necessarily dissappointed in model performance. Everything was looking perfectly smooth up until the red flag flew for rain with 14 laps to go. I will say, this is exactly the kind of scenario that I want to be able to plan for, but overall, not super unhappy. I think prior to the rain delay, I was in a fantastic spot, and honestly up until the Bell spin off the red flag. Each of my predicted top 3 were able to fight for a win today, which I can be happy about. Definitely want to make some big changes in the overall methodology of the simulation after that. Will be back next week for the Brickyard.
+
+---
+
+</details>
+
+---
+
+
+</details>
+
+### 🧱 Indianapolis Motor Speedway: The Brickyard
+
+<details>
+   
+<summary>Predictions</summary>
+   
+**Prediction:**
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+| **#20** Bell  | **#5** Larson | **#45** Reddick  |
+|      +1200 (7)  |    +500 (2)   |    +900 (5)   |
+
+<sub>Odds updated 07/23/2025.</sub>
+
+<sub>Picks made with 30% weight on track specific performance, 70% based off season performance to date.</sub>
+
+**My Top 10:**
+
+<img src="Predictions/Indy-2025/Indy-2025-Predicted-Top-10.png" alt="Indy 2025 Predicted Top 10" width="500"/>
+
+**Notable Model Changes For This Race**
+
+- Added in custom weighting between track specific and season specific performance
+- 
+
+**My Personal Pick:**
+
+I didn't have time to type this up pre race, I'm currently travelling, but I thought Larson, Byron, or Hamlin were the guys coming into the race.
+
+**Race Result:**
+
+| 🥇 #1           | 🥈 #2           | 🥉 #3           |
+|----------------|----------------|----------------|
+| **#23** Wallace                 | **#5** Larson       | **#11** Hamlin  |
+|      +1500 (10)                  |    +500 (2)            |    +750 (4)   |
+|       14th in simulation preds | ⭐️ 2nd in simulation preds ⭐️ | 4th in simulation preds |
+
+
+---
+
+**Comments On Predictive Performance:**
+
+What an awesome drive by Bubba, holding off mother nature, two overtimes, and gung ho Kyle Larson in your rearview was awesome to watch, even as a huge Larson fan. I am stoked at how my model did, even if I had the eventual race winner predicted to end up 14th. Beyond just the winner, I really hit the nail on the head for the most part. Obviously I need to keep fine tuning the waiting, doing all the enhancements I laid out for myself, and so on. Also, I really need to start looking at how Vegas has their pre race odds, comparing and contrasting what I get, and using some sort of formula to translate my predictions into actual betting odds to see how they hold up side by side.
 
 ---
 
