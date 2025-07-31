@@ -46,7 +46,6 @@ Kyle Larson has been completely out of luck since the debacle when he tried to p
 | **#19** Briscoe  | **#11** Hamlin | **#12** Blaney  |
 |     +2500 (15)  |    +400 (1)   |    +700 (4)   |
 
----
 
 **Comments On Predictive Performance:**
 
@@ -84,14 +83,9 @@ I think the bias is real here: my model says Larson, Vegas says Larson, I am a h
 | **#11** Hamlin  | **#19** Briscoe | **#48** Bowman  |
 |      +470 (2)  |    +1900 (T9)   |    +1900 (T9)   |
 
-
----
-
 **Comments On Predictive Performance:**
 
 I am not super happy with how today went, albeit not necessarily dissappointed in model performance. Everything was looking perfectly smooth up until the red flag flew for rain with 14 laps to go. I will say, this is exactly the kind of scenario that I want to be able to plan for, but overall, not super unhappy. I think prior to the rain delay, I was in a fantastic spot, and honestly up until the Bell spin off the red flag. Each of my predicted top 3 were able to fight for a win today, which I can be happy about. Definitely want to make some big changes in the overall methodology of the simulation after that. Will be back next week for the Brickyard.
-
----
 
 </details>
 
@@ -132,14 +126,9 @@ I didn't have time to type this up pre race, I'm currently travelling, but I tho
 | **Vegas Odds**        | +1500 (10)          | +500 (2)           | +750 (4)          |
 | **Sim Prediction**    | 14th| ⭐️ 2nd ⭐️ | ✨ 4th ✨|
 
-
----
-
 **Comments On Predictive Performance:**
 
 What an awesome drive by Bubba, holding off mother nature, two overtimes, and gung ho Kyle Larson in your rearview was awesome to watch, even as a huge Larson fan. I am stoked at how my model did, even if I had the eventual race winner predicted to end up 14th. Beyond just the winner, I really hit the nail on the head for the most part. Obviously I need to keep fine tuning the waiting, doing all the enhancements I laid out for myself, and so on. Also, I really need to start looking at how Vegas has their pre race odds, comparing and contrasting what I get, and using some sort of formula to translate my predictions into actual betting odds to see how they hold up side by side.
-
----
 
 </details>
 
@@ -172,17 +161,14 @@ What an awesome drive by Bubba, holding off mother nature, two overtimes, and gu
 **My Personal Pick:**
 
 
+
 **Race Result:**
 
 Be back post race.
 
----
-
 **Comments On Predictive Performance:**
 
 Be back post race.
-
----
 
 </details>
 
