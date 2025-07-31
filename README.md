@@ -120,7 +120,6 @@ I am not super happy with how today went, albeit not necessarily dissappointed i
 **Notable Model Changes For This Race**
 
 - Added in custom weighting between track specific and season specific performance
-- 
 
 **My Personal Pick:**
 
@@ -132,7 +131,7 @@ I didn't have time to type this up pre race, I'm currently travelling, but I tho
 |-----------------------|--------------------|-------------------|------------------|
 | **Driver**            | **#23** Wallace     | **#5** Larson      | **#11** Hamlin    |
 | **Vegas Odds**        | +1500 (10)          | +500 (2)           | +750 (4)          |
-| **Sim Prediction**    | 14th in simulation preds | ⭐️ 2nd in simulation preds ⭐️ | 4th in simulation preds |
+| **Sim Prediction**    | 14th| ⭐️ 2nd ⭐️ | ✨ 4th ✨|
 
 
 ---
