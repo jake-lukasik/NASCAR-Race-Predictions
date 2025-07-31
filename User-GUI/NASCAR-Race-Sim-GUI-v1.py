@@ -7,7 +7,8 @@ import numpy as np
 TRACK_CSV_LINKS = {
     "Pocono": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Pocono-2025/pocono-sim-ready-data.csv",
     "Dover": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Dover-2025/dover-sim-ready-data.csv",
-    "Indy": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Indy-2025/indy-sim-ready-data.csv"
+    "Indy": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Indy-2025/indy-sim-ready-data.csv",
+    "Iowa": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Iowa-2025/iowa-sim-ready-data.csv"
 }
 
 # -- SIMULATION FUNCTIONS -- #
