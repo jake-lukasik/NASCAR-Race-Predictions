@@ -140,11 +140,11 @@ What an awesome drive by Bubba, holding off mother nature, two overtimes, and gu
    
 **Prediction:**
 
-|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             |
-|-----------------------|--------------------|-------------------|------------------|
-| **Driver**            | **#23** Wallace     | **#5** Larson      | **#11** Hamlin    |
-| **Vegas Odds**        | +1500 (10)          | +500 (2)           | +750 (4)          |
-| **Sim Prediction**    | 14th| ⭐️ 2nd ⭐️ | ✨ 4th ✨|
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             | #4              | #5             |
+|-----------------------|--------------------|-------------------|------------------|------------------|----------------|
+| **Driver**            | **#9** Elliott     | **#24** Byron     | **#20** Bell     | **#11** Hamlin   | **#5** Larson  |
+| **Vegas Odds**        | +975 (6)           | +900 (5)          | +460 (2)         | +520 (4)         | +450 (1)       |
+| **Sim Prediction**    | 1st                | 2nd               | 3rd              | 4th              | 5th            |
 
 <sub>Odds updated 07/23/2025.</sub>
 
@@ -154,13 +154,17 @@ What an awesome drive by Bubba, holding off mother nature, two overtimes, and gu
 
 <img src="Predictions/Iowa-2025/Iowa-2025-Predicted-Top-10.png" alt="Iowa 2025 Predicted Top 10" width="500"/>
 
+**All Drivers' Avg Finishes:**
+
+<img src="Predictions/Iowa-2025/Iowa-2025-All-Driver-Avg-Finishes.png" alt="Iowa 2025 Average Finishes" width="500"/>
+
 **Notable Model Changes For This Race**
 
 - None (On vacation, not much time to do much other than run preds)
 
 **My Personal Pick:**
 
-
+I personally think that anyone in my predicted top ten has a really good shot. I really like Ty Gibbs at 10th highest predicted win probability, he is due for a win any race now, and I wouldn't be shocked to see him win at a newer track like Iowa. Along with him, I think Blaney could really bring it, he was unstoppable last year, but wouldn't count out a guy like Buescher who needs to win to get in to the playoffs. Again though, we could see this end of the regular season resurgence from guys like Larson and Bell who started hot at the beginning of the year. Going to be a great race for sure!
 
 **Race Result:**
 
