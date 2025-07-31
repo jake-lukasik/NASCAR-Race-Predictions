@@ -146,7 +146,7 @@ What an awesome drive by Bubba, holding off mother nature, two overtimes, and gu
 | **Vegas Odds**        | +975 (6)           | +900 (5)          | +460 (2)         | +520 (4)         | +450 (1)       |
 | **Sim Prediction**    | 1st                | 2nd               | 3rd              | 4th              | 5th            |
 
-<sub>Odds updated 07/23/2025.</sub>
+<sub>Odds updated 07/30/2025.</sub>
 
 <sub>Picks made with 15% weight on track specific performance, 85% based off season performance to date.</sub>
 
