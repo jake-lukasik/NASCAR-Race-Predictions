@@ -10,7 +10,7 @@ For the full NASCAR Cup Series schedule, click [here](https://www.nascar.com/nas
 
 --- 
 
-## Predictions and Evaluation By Track:
+## 🗳️ Predictions and Evaluation By Track:
 
 *Betting odds sourced from the Fanatics Sportsbook iPhone App, learn more [here](https://betfanatics.com/)*
 
@@ -128,11 +128,11 @@ I didn't have time to type this up pre race, I'm currently travelling, but I tho
 
 **Race Result:**
 
-| 🥇 #1           | 🥈 #2           | 🥉 #3           |
-|----------------|----------------|----------------|
-| **#23** Wallace                 | **#5** Larson       | **#11** Hamlin  |
-|      +1500 (10)                  |    +500 (2)            |    +750 (4)   |
-|       14th in simulation preds | ⭐️ 2nd in simulation preds ⭐️ | 4th in simulation preds |
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             |
+|-----------------------|--------------------|-------------------|------------------|
+| **Driver**            | **#23** Wallace     | **#5** Larson      | **#11** Hamlin    |
+| **Vegas Odds**        | +1500 (10)          | +500 (2)           | +750 (4)          |
+| **Sim Prediction**    | 14th in simulation preds | ⭐️ 2nd in simulation preds ⭐️ | 4th in simulation preds |
 
 
 ---
