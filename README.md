@@ -181,6 +181,52 @@ I think, obviously, I performed well where my sim performed better than the Vega
 
 </details>
 
+### 🏞️ Watkins Glen International: The Glen
+
+<details>
+   
+<summary>Predictions</summary>
+   
+**Prediction:**
+
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             | #4              | #5             |
+|-----------------------|--------------------|-------------------|------------------|------------------|----------------|
+| **Driver**            | **#20** Bell     | **#9** Elliott     | **#88** Van Gisbergen     | **#5** Larson   | **#24** Byron  |
+| **Vegas Odds (n'th Favorite)**        | +1200 (4)           | +1500 (T6)          | +135 (1)         | +1100 (3)         | +1300 (5)       |
+| **Sim Prediction (Win Prob %)**    | 1st (27.4%)               | 2nd (25.4%)              | 3rd (25.3%)           | 4th (11.8%)            | 5th (2.5%)            |
+
+<sub>Odds updated 08/06/2025.</sub>
+
+<sub>Picks made with 50% weight on track specific performance, 50% based off season performance to date.</sub>
+
+**My Top 10:**
+
+<img src="Predictions/Watkins-Glen-2025/Watkins-Glen-2025-Predicted-Top-10.png" alt="Watkins Glen 2025 Predicted Top 10" width="500"/>
+
+**All Drivers' Avg Finishes:**
+
+<img src="Predictions/Watkins-Glen-2025/Watkins-Glen-2025-All-Driver-Avg-Finishes.png" alt="Watkins Glen 2025 Average Finishes" width="500"/>
+
+**Notable Model Changes For This Race**
+
+- Added a road course multiplier weight
+- Added road course compatibility to entire framework
+- Added export option to GUI
+
+**My Personal Pick:**
+
+I think that Bell having the highest probability to win is interesting, and I think this could be the race for him or Larson to find their way back to a win after the early slump. I think realistically, SVG has the best chance of winning, but outside of him, Bell, Larson, or Reddick are my personal picks.
+
+**Race Result:**
+
+Be back post race!
+
+**Comments On Predictive Performance:**
+
+Be back post race!
+
+</details>
+
 ---
 
 ## 📂 Project Structure
