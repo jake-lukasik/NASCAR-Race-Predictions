@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox, scrolledtext, ttk
+from tkinter import messagebox, scrolledtext, ttk, filedialog
 import pandas as pd
 import numpy as np
 
@@ -8,18 +8,19 @@ TRACK_CSV_LINKS = {
     "Pocono": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Pocono-2025/pocono-sim-ready-data.csv",
     "Dover": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Dover-2025/dover-sim-ready-data.csv",
     "Indy": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Indy-2025/indy-sim-ready-data.csv",
-    "Iowa": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Iowa-2025/iowa-sim-ready-data.csv"
+    "Iowa": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Iowa-2025/iowa-sim-ready-data.csv",
+    "Watkins Glen": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Watkins-Glen-2025/watkins-glen-sim-ready-data.csv"
 }
 
 # -- SIMULATION FUNCTIONS -- #
 # existing simulation functions from before
-def simulate_race(df, track_stat_wgt, season_stat_wgt):
+def simulate_race(df, track_stat_wgt, season_stat_wgt, road_course_bool=False):
     finish_positions = []
     for _, row in df.iterrows():
         # calculate a performance bonus to add a weight to drivers who have performed well
         # at track in categories other than avg. finish
         performance_bonus_scale = 0.5  # increase effect of bonuses
-
+    
         track_bonus = (
             0.3 * row['Wins'] +
             0.15 * row['track_Laps Led Per Race'] +
@@ -37,7 +38,10 @@ def simulate_race(df, track_stat_wgt, season_stat_wgt):
         # weighted performance bonus
         performance_bonus = track_stat_wgt * track_bonus + season_stat_wgt * season_bonus
 
-
+        # if road course, boost performance bonus by road course multiplier
+        if road_course_bool:
+            performance_bonus *= (1 + row['RoadCourseMultiplier'])  # boosts 0–100% based on RC strength
+            
         # apply bonus: decrease average finish (but not below 1)
         adjusted_avg_finish = max(
         1,
@@ -46,6 +50,10 @@ def simulate_race(df, track_stat_wgt, season_stat_wgt):
             season_stat_wgt * row['szn_Avg Finish']
         ) - performance_bonus * performance_bonus_scale
         )
+        
+        # apply road course multiplier to reduce adjusted_avg_finish even more
+        if road_course_bool:
+            adjusted_avg_finish *= (1 - 0.25 * row['RoadCourseMultiplier'])
 
         # quick check for a DNF
         dnf = np.random.poisson(row['DNF_Prob']) >= 1
@@ -71,7 +79,7 @@ def simulate_race(df, track_stat_wgt, season_stat_wgt):
     # winner = results.iloc[0]['Driver'] # old method to just find the winner, instead now pull a whole df each sim for all finishing posns
     return results
 
-def run_simulations(df, num_simulations=10000, weight_lst=[0.5, 0.5], progress_callback=None):
+def run_simulations(df, num_simulations=10000, weight_lst=[0.5, 0.5], road_course_bool=False, progress_callback=None):
     # quick check to make sure weight_lst adds to 1
     if sum(weight_lst) != 1:
         raise Exception("Make sure weight params add to 1")
@@ -83,7 +91,7 @@ def run_simulations(df, num_simulations=10000, weight_lst=[0.5, 0.5], progress_c
 
     # do n simulations of race results and then track stats
     for i in range(num_simulations):
-        race_result = simulate_race(df, weight_lst[0], weight_lst[1])
+        race_result = simulate_race(df, weight_lst[0], weight_lst[1], road_course_bool)
         for idx, row in race_result.iterrows():
             driver = row['Driver']
             pos = row["rel_pos"]
@@ -150,10 +158,19 @@ class RaceSimApp:
                                       orient=tk.HORIZONTAL, length=200)
         self.weight_slider.set(0.5)  # default value
         self.weight_slider.pack(side=tk.LEFT)
-
+        
+        # road course checkbox
+        self.road_course_var = tk.BooleanVar()
+        self.road_course_check = tk.Checkbutton(root, text="Is Road Course?", variable=self.road_course_var)
+        self.road_course_check.pack(pady=5)
+        
         # run sim button
         self.run_btn = tk.Button(root, text="Run Simulation", command=self.run_simulation)
         self.run_btn.pack(pady=10)
+
+        # export to CSV button
+        self.export_btn = tk.Button(root, text="Export Results to CSV", command=self.export_to_csv, state=tk.DISABLED)
+        self.export_btn.pack(pady=5)
 
         # progress bar
         self.progress = ttk.Progressbar(root, orient=tk.HORIZONTAL, length=300, mode='determinate')
@@ -162,7 +179,20 @@ class RaceSimApp:
         # results area
         self.results_text = scrolledtext.ScrolledText(root, width=80, height=20)
         self.results_text.pack(padx=10, pady=10)
-    
+
+    def export_to_csv(self):
+        if hasattr(self, 'results_df') and self.results_df is not None:
+            file_path = filedialog.asksaveasfilename(defaultextension=".csv",
+                                                        filetypes=[("CSV files", "*.csv")])
+            if file_path:
+                try:
+                    self.results_df.to_csv(file_path, index=False)
+                    messagebox.showinfo("Success", f"Results exported to:\n{file_path}")
+                except Exception as e:
+                    messagebox.showerror("Export Failed", f"Could not save file:\n{e}")
+        else:
+            messagebox.showwarning("No Data", "No simulation results to export.")
+
     def run_simulation(self):
         track_name = self.track_var.get()
         url = TRACK_CSV_LINKS.get(track_name)
@@ -193,14 +223,23 @@ class RaceSimApp:
         try:
             track_weight = self.weight_slider.get()
             season_weight = 1 - track_weight
-            results_df = run_simulations(df, num_simulations, weight_lst=[track_weight, season_weight], progress_callback=update_progress)
+            road_course_bool = self.road_course_var.get()
+            self.results_df = run_simulations(
+                df,
+                num_simulations,
+                weight_lst=[track_weight, season_weight],
+                road_course_bool=road_course_bool,
+                progress_callback=update_progress
+            )
             self.progress['value'] = 100
+
         except Exception as e:
             messagebox.showerror("Error", f"Simulation failed:\n{e}")
             return
         
         self.results_text.delete("1.0", tk.END)
-        self.results_text.insert(tk.END, results_df.to_string(index=False))
+        self.results_text.insert(tk.END, self.results_df.to_string(index=False))
+        self.export_btn.config(state=tk.NORMAL)
 
 # -- MAIN RUN --
 if __name__ == "__main__":
