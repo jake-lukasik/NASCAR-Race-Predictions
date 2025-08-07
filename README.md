@@ -168,11 +168,16 @@ I personally think that anyone in my predicted top ten has a really good shot. I
 
 **Race Result:**
 
-Be back post race.
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             | #4              | #5             |
+|-----------------------|--------------------|-------------------|------------------|------------------|----------------|
+| **Driver**            | **#24** Byron     | **#19** Briscoe     | **#6** Keselowski     | **#12** Blaney   | **#60** Preece  |
+| **Vegas Odds**        | +900 (5)           | +1700 (8)          | +3000 (15)         | +510 (3)         | +4750 (19th)       |
+| **Sim Prediction**    | ✨ 2nd ✨              | 8th               | 26th              | 6th              | 11th            |
+| **Winner**            | MC Sim            | Tie                |  Sportsbook           | Sportsbook       |    MC Sim      |
 
 **Comments On Predictive Performance:**
 
-Be back post race.
+I think, obviously, I performed well where my sim performed better than the Vegas odds, as well as in the case of Briscoe. The one case that really sticks out to me is Brad Keselowski. I can clearly see the issue here is the fact that I only had one race to go off of for Iowa, as long as the fact that Brad is having a down year. If I had included overall career stats in the weighting for tracks with a small sample size (Iowa, Chicago Street Race, COTA, etc.), it would be really helpful.
 
 </details>
 
