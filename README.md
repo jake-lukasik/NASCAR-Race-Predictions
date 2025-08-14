@@ -242,13 +242,13 @@ I think this did relatively good, all things considered. This was a road course 
 
 |                       | 🥇 #1              | 🥈 #2             | 🥉 #3             | #4              | #5             |
 |-----------------------|--------------------|-------------------|------------------|------------------|----------------|
-| **Driver**            | **#20** Bell     | **#9** Elliott     | **#88** Van Gisbergen     | **#5** Larson   | **#24** Byron  |
-| **Vegas Odds (n'th Favorite)**        | +1200 (4)           | +1500 (T6)          | +135 (1)         | +1100 (3)         | +1300 (5)       |
-| **Sim Prediction (Win Prob %)**    | 1st (27.4%)               | 2nd (25.4%)              | 3rd (25.3%)           | 4th (11.8%)            | 5th (2.5%)            |
+| **Driver**            | **#11** Hamlin     | **#20** Bell     | **#9** Elliott     | **#24** Byron   | **#5** Larson  |
+| **Vegas Odds (n'th Favorite)**        |  +360 (2)    |  +350 (1)   |   +1400 (T8)  |  +925 (4)  |  +830 (3)     |
+| **Sim Prediction (Win Prob %)**    | 1st (37.3%)               | 2nd (21.5%)              | 3rd (12.1%)           | 4th (9.6%)            | 5th (8.6%)            |
 
 <sub>Odds updated 08/06/2025.</sub>
 
-<sub>Picks made with 50% weight on track specific performance, 50% based off season performance to date.</sub>
+<sub>Picks made with 30% weight on track specific performance, 70% based off season performance to date.</sub>
 
 **My Top 10:**
 
@@ -264,20 +264,15 @@ I think this did relatively good, all things considered. This was a road course 
 
 **My Personal Pick:**
 
-I think that Bell having the highest probability to win is interesting, and I think this could be the race for him or Larson to find their way back to a win after the early slump. I think realistically, SVG has the best chance of winning, but outside of him, Bell, Larson, or Reddick are my personal picks.
+I'm not entirely sure how this race will go. I think that Denny has the strongest case for winning, given how good he has historically run at Richmond, but I think it is wide open. I am curious to see what risks teams who are just outside the playoffs are willing to take.
 
 **Race Result:**
 
-|                         | 🥇 #1              | 🥈 #2              | 🥉 #3              | #4              | #5              |
-|-------------------------|-------------------|--------------------|-------------------|-----------------|-----------------|
-| **Driver**              | **#88** Van Gisbergen | **#20** Bell      | **#17** Buescher  | **#24** Byron   | **#19** Briscoe |
-| **Vegas Odds (n’th Favorite)** | +135 (1)          | +1200 (4)         | +1700 (8)         | +1300 (5)       | +2100 (11)      |
-| **Sim Prediction (Win Prob %)** | 3rd (25.3%)       | 1st (25.4%)       | 12th (0.26%)      | 5th (2.5%)      | 14th (0.23%)    |
-| **Winner**              | Sportsbook        | MC Sim             | Sportsbook        | Tie             | Sportsbook      |
+Be back post race.
 
 **Comments On Predictive Performance:**
 
-I think this did relatively good, all things considered. This was a road course and the first road course at that, so definitely can see where I need to improve moving forward with road courses.
+Be back post race.
 
 </details>
 
