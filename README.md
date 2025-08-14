@@ -219,11 +219,65 @@ I think that Bell having the highest probability to win is interesting, and I th
 
 **Race Result:**
 
-Be back post race!
+|                         | 🥇 #1              | 🥈 #2              | 🥉 #3              | #4              | #5              |
+|-------------------------|-------------------|--------------------|-------------------|-----------------|-----------------|
+| **Driver**              | **#88** Van Gisbergen | **#20** Bell      | **#17** Buescher  | **#24** Byron   | **#19** Briscoe |
+| **Vegas Odds (n’th Favorite)** | +135 (1)          | +1200 (4)         | +1700 (8)         | +1300 (5)       | +2100 (11)      |
+| **Sim Prediction (Win Prob %)** | 3rd (25.3%)       | 1st (25.4%)       | 12th (0.26%)      | 5th (2.5%)      | 14th (0.23%)    |
+| **Winner**              | Sportsbook        | MC Sim             | Sportsbook        | Tie             | Sportsbook      |
 
 **Comments On Predictive Performance:**
 
-Be back post race!
+I think this did relatively good, all things considered. This was a road course and the first road course at that, so definitely can see where I need to improve moving forward with road courses.
+
+</details>
+
+### 🔥 Richmond Raceway: The Action Track
+
+<details>
+   
+<summary>Predictions</summary>
+   
+**Prediction:**
+
+|                       | 🥇 #1              | 🥈 #2             | 🥉 #3             | #4              | #5             |
+|-----------------------|--------------------|-------------------|------------------|------------------|----------------|
+| **Driver**            | **#20** Bell     | **#9** Elliott     | **#88** Van Gisbergen     | **#5** Larson   | **#24** Byron  |
+| **Vegas Odds (n'th Favorite)**        | +1200 (4)           | +1500 (T6)          | +135 (1)         | +1100 (3)         | +1300 (5)       |
+| **Sim Prediction (Win Prob %)**    | 1st (27.4%)               | 2nd (25.4%)              | 3rd (25.3%)           | 4th (11.8%)            | 5th (2.5%)            |
+
+<sub>Odds updated 08/06/2025.</sub>
+
+<sub>Picks made with 50% weight on track specific performance, 50% based off season performance to date.</sub>
+
+**My Top 10:**
+
+<img src="Predictions/Richmond-2025/Richmond-2025-Predicted-Top-10.png" alt="Richmond 2025 Predicted Top 10" width="500"/>
+
+**All Drivers' Avg Finishes:**
+
+<img src="Predictions/Richmond-2025/Richmond-2025-All-Driver-Avg-Finishes.png" alt="Richmond 2025 Average Finishes" width="500"/>
+
+**Notable Model Changes For This Race**
+
+- None (Moving this week, super busy)
+
+**My Personal Pick:**
+
+I think that Bell having the highest probability to win is interesting, and I think this could be the race for him or Larson to find their way back to a win after the early slump. I think realistically, SVG has the best chance of winning, but outside of him, Bell, Larson, or Reddick are my personal picks.
+
+**Race Result:**
+
+|                         | 🥇 #1              | 🥈 #2              | 🥉 #3              | #4              | #5              |
+|-------------------------|-------------------|--------------------|-------------------|-----------------|-----------------|
+| **Driver**              | **#88** Van Gisbergen | **#20** Bell      | **#17** Buescher  | **#24** Byron   | **#19** Briscoe |
+| **Vegas Odds (n’th Favorite)** | +135 (1)          | +1200 (4)         | +1700 (8)         | +1300 (5)       | +2100 (11)      |
+| **Sim Prediction (Win Prob %)** | 3rd (25.3%)       | 1st (25.4%)       | 12th (0.26%)      | 5th (2.5%)      | 14th (0.23%)    |
+| **Winner**              | Sportsbook        | MC Sim             | Sportsbook        | Tie             | Sportsbook      |
+
+**Comments On Predictive Performance:**
+
+I think this did relatively good, all things considered. This was a road course and the first road course at that, so definitely can see where I need to improve moving forward with road courses.
 
 </details>
 
