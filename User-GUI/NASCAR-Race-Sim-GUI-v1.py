@@ -9,7 +9,8 @@ TRACK_CSV_LINKS = {
     "Dover": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Dover-2025/dover-sim-ready-data.csv",
     "Indy": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Indy-2025/indy-sim-ready-data.csv",
     "Iowa": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Iowa-2025/iowa-sim-ready-data.csv",
-    "Watkins Glen": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Watkins-Glen-2025/watkins-glen-sim-ready-data.csv"
+    "Watkins Glen": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Watkins-Glen-2025/watkins-glen-sim-ready-data.csv",
+    "Richmond": "https://raw.githubusercontent.com/jake-lukasik/NASCAR-Race-Predictions/refs/heads/main/Data/Richmond-2025/richmond-sim-ready-data.csv"
 }
 
 # -- SIMULATION FUNCTIONS -- #
